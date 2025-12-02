@@ -56,6 +56,6 @@ $productos_bajo_stock = $stmt_stock->fetchColumn();
             <a href="../productos.php" class="btn btn-success" style="padding: 15px 30px; font-size: 1.2em;" target="_blank">Ver Catálogo Público</a>
         </div>
     </div>
-    <?php include '../includes/footer.php'; ?>
+    <?php  '../includes/footer.php'; ?>
 </body>
 </html>
