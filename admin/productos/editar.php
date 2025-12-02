@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             
             <label>Imagen Actual:</label>
             <?php if ($producto['imagen']): ?>
-                <img src="../../assets/img/productos/<?php echo $producto['imagen']; ?>" width="100"><br>
+                <img alt="foto" src="../../assets/img/productos/<?php echo $producto['imagen']; ?>" width="100"><br>
             <?php endif; ?>
             <label>Cambiar Imagen:</label>
             <input type="file" name="imagen">
